@@ -1,6 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
 html {
   box-sizing: border-box;
+  font-size: 18px;
+}
+
+@media only screen and (min-width: 720px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 1240px) {
+  html {
+    font-size: 24px;
+  }
 }
 
 *,
@@ -39,6 +59,14 @@ main section {
   line-height: 1.5;
 }
 
-img {
-  /* border: 1px solid red; */
+@media only screen and (max-width: 420px) {
+  .h2-1 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 420px) {
+  .h2-2 {
+    display: none;
+  }
 }
