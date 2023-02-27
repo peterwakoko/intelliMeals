@@ -59,6 +59,45 @@ main section {
   line-height: 1.5;
 }
 
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 15px;
+  width: 200px;
+}
+
+.sign-up-btn {
+  margin-left: 10px;
+}
+
+.sign-up-btn button {
+  padding: 10px;
+  width: 100px;
+  border-radius: 999px;
+  border: none;
+  outline: none;
+  background: #2da44e;
+  color: #fff;
+  font-weight: 700;
+}
+
+.log-in-btn {
+  margin-right: 10px;
+}
+
+.log-in-btn button {
+  padding: 10px;
+  width: 100px;
+  border-radius: 999px;
+  border: none;
+  outline: none;
+  background: #2da44e;
+  color: #fff;
+  font-weight: 700;
+}
+
 @media only screen and (max-width: 420px) {
   .h2-1 {
     display: none;
